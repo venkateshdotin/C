@@ -39,7 +39,7 @@ running in parallel on different processors. A single-threaded process can only 
 machine increases concurrency.
 
 
-	MULTITHREADING MODELS AND HYPERTHREADING
+MULTITHREADING MODELS AND HYPERTHREADING
 --------------------------------------------------------
 Types of Threads:
 1. User threads:- Supported above the kernel and are managed without kernel support.

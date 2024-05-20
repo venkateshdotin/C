@@ -1,3 +1,22 @@
+What is an Array?
+
+An array is a collection of one or more values of the same data type stored in contiguous memory locations. The data type can be user-defined or even any other 
+primitive data-type. Elements of an array can be accessed with the same array name by specifying the index number as the location in memory.
+
+Types of Arrays
+Arrays in C are classified into three types:
+
+One-dimensional arrays
+Two-dimensional arrays
+Multi-dimensional arrays
+
+Introduction to One Dimensional Array in C
+--------------------------------------------------------
+We can visualize a one-dimensional array in C as a single row to store the elements. All the elements are stored at contiguous memory locations. Now, we will see 
+how to declare, initialize and access array elements:
+
+Array
+----------------------
 An array is a data structure, used to store a collection of elements of the 
 same type. Although an array is used to store a collection of data, it is often 
 more useful to think of an array as a collection of variables of the same 

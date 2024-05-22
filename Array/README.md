@@ -6,9 +6,9 @@ primitive data-type. Elements of an array can be accessed with the same array na
 Types of Arrays
 Arrays in C are classified into three types:
 
-One-dimensional arrays
-Two-dimensional arrays
-Multi-dimensional arrays
+* One-dimensional arrays
+* Two-dimensional arrays
+* Multi-dimensional arrays
 
 Introduction to One Dimensional Array in C
 --------------------------------------------------------

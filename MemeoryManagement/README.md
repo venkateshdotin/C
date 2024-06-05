@@ -1,4 +1,5 @@
-**Memory management **
+Memory management
+-----------------------
 Memory management is a crucial aspect of programming. To effectively manage memory, developers must understand the various segments of memory that a program utilizes. These segments include the stack, heap, BSS (Block Started by Symbol), data, and text segments. Each segment plays a distinct role in a program's execution and memory management.
 In C programming, the memory layout consists of the following sections:
 
@@ -7,11 +8,15 @@ In C programming, the memory layout consists of the following sections:
 3. Uninitialized data segment
 4. Heap
 5. Stack
+
+![image](https://github.com/venkateshdotin/C_Example_code/assets/53397309/48d8a5db-5776-462c-91f4-45cced1b1f7b)
+
+   
 ![image](https://github.com/venkateshdotin/C_Example_code/assets/53397309/344dd3d2-4f26-4ce7-b4dd-fadced885c1e)
 
 ![image](https://github.com/venkateshdotin/C_Example_code/assets/53397309/83635381-83a6-4ec7-8109-7ae4ef8c4d0d)
 
-1.** Text segment**
+1. **Text segment**
 -> The text segment, also known as the code segment, contains the compiled machine code of the program's instructions. This segment is read-only and holds the executable instructions that the CPU fetches and executes during the program's runtime.
 -> Since the text segment is read-only, attempts to modify its contents will result in segmentation faults or program crashes. This segment is responsible for the program's actual functionality and execution flow.
 

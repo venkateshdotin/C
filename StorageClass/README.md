@@ -2,8 +2,8 @@ Storage Classes in C
 ------------------------
 C Storage Classes are used to describe the features of a variable/function. These features basically include the scope, visibility, and lifetime which help us to trace the existence of a particular variable during the runtime of a program.
 
-![image](./images/one.png)
-![image](./images/second.png)
+![Alt text](images/one.png)
+![Alt text](images/second.png)
 The following are four types of Storage Classes in C.
 
 1. Automatic (auto)

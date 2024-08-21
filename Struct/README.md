@@ -7,7 +7,7 @@ C Structure Declaration
 ----------------------
 We have to declare structure in C before using it in our program. In structure declaration, we specify its member variables along with their datatype. We can use the struct keyword to declare the structure in C using the following syntax:
 
-Syntax::
+**Syntax::**
 
 struct structure_name {
     data_type member_name1;
@@ -42,17 +42,16 @@ struct Point
    int x = 0;  // COMPILER ERROR:  cannot initialize members here
    int y = 0;  // COMPILER ERROR:  cannot initialize members here
 };
-The reason for the above error is simple. When a datatype is declared, no memory is allocated for it. Memory is allocated only when variables are 
-created.
+The reason for the above error is simple. When a datatype is declared, no memory is allocated for it. Memory is allocated only when variables are created.
 
 Nested Structures
 -------------------------
 C language allows us to insert one structure into another as a member. This process is called nesting and such structures are called nested structures. There are two ways in which we can nest one structure into another:
 
-1. Embedded Structure Nesting
+**1. Embedded Structure Nesting**
 In this method, the structure being nested is also declared inside the parent structure.
 
-Example
+**Example**
 
 struct parent {
     int member1;
@@ -63,10 +62,10 @@ struct parent {
     }
     ...
 }
-2. Separate Structure Nesting
+**2. Separate Structure Nesting**
 In this method, two structures are declared separately and then the member structure is nested inside the parent structure.
 
-Example
+**Example**
 
 struct member_str {
     int member_str1;

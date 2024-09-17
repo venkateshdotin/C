@@ -1,6 +1,7 @@
 C Unions
 --------------
-	The Union is a user-defined data type in C language that can contain elements of the different data types just like structure. But unlike structures, all the members in the C union are stored in the same memory location. Due to this, only one member can store data at the given instance.
+
+The Union is a user-defined data type in C language that can contain elements of the different data types just like structure. But unlike structures, all the members in the C union are stored in the same memory location. Due to this, only one member can store data at the given instance.
 
 Syntax of Union in C ::
 
@@ -41,7 +42,7 @@ The size of the union will always be equal to the size of the largest member of 
 Q&A
 --------
 
-1. Can we store data in multiple union members at the same time?
+**1. Can we store data in multiple union members at the same time?**
 --------------------------------------------------------------
 No. We can only store data in a single member at the same time. For example in the following C program, both x and y share the same location. If we change x, we can see the changes being reflected in y. 
 
@@ -70,7 +71,7 @@ int main()
     return 0;
 }
 
-Output::
+**Output::**
 
 After making x = 2:
  x = 2, y = 2
@@ -79,6 +80,6 @@ After making y = 10:
  x = 10, y = 10
 
 
-2. What are the applications of unions?
+**2. What are the applications of unions?**
 -----------------------------------------
 Unions can be useful in many situations where we want to use the same memory for two or more members. For example, suppose we want to implement a binary tree data structure where each leaf node has a double data value, while each internal node has pointers to two children, but no data.
